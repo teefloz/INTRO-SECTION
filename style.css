@@ -1,0 +1,36 @@
+:root {
+  --Almost-White: hsl(0, 0%, 98%);
+  --Medium-Gray: hsl(0, 0%, 41%);
+  --Almost-Black: hsl(0, 0%, 8%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1440px;
+}
+
+.hearder p {
+  padding: 0 16px;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .sponsors img {
+    width: 60px;
+  }
+}
+
+@media (width > 768px) {
+  header {
+    margin: 0 180px;
+  }
+
+  hearder p {
+    padding-left: 0;
+    padding-right: 200px;
+  }
+}
